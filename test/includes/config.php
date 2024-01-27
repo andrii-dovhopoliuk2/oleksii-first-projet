@@ -5,7 +5,7 @@ $config = array(
 	'yuotubemusic' => 'https://music.youtube.com/playlist?list=PLBdfjMptqt1EzQ7BRAY-UjIPJvffxlwwK&si=BoNdhJIO_y7uRBAm',
 
 	'db' => array(
-		'server' => '127.0.0.1',
+		'server' => 'mysql',
 		'username' => 'root',
 		'password' => 'root',
 		'name' => 'test_blog'

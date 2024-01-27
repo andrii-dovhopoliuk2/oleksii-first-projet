@@ -22,6 +22,20 @@ services:
     networks:
       - app-network
 
+  mysql:
+    image: mysql:latest
+    volumes:
+      - mysql-data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: test_blog
+      MYSQL_USER: test
+      MYSQL_PASSWORD: test
+    networks:
+      - app-network
+volumes:
+  mysql-data:
+
 networks:
   app-network:
     driver: bridge
