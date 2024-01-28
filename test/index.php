@@ -35,7 +35,7 @@ require "includes/config.php";
 								<div class="articles articles_horizontal">
 
 									<?php
-									$articles = mysqli_query($connection, "SELECT * FROM `articles` ORDER BY `id` DESC LIMIT 4");
+									$articles = mysqli_query($connection, "SELECT * FROM `articles` ORDER BY `id` DESC LIMIT 6");
 									?>
 
 									<?php
@@ -99,7 +99,7 @@ require "includes/config.php";
 				<div class="articles articles_horizontal">
 
 					<?php
-					$articles = mysqli_query($connection, "SELECT * FROM `articles` WHERE `categorie_id` = 10 ORDER BY `id` DESC LIMIT 4");
+					$articles = mysqli_query($connection, "SELECT * FROM `articles` WHERE `categorie_id` = 10 ORDER BY `id` DESC LIMIT 6");
 					?>
 
 					<?php
@@ -158,7 +158,7 @@ require "includes/config.php";
 				<div class="articles articles_horizontal">
 
 					<?php
-					$articles = mysqli_query($connection, "SELECT * FROM `articles` WHERE `categorie_id` = 6 ORDER BY `id` DESC LIMIT 4");
+					$articles = mysqli_query($connection, "SELECT * FROM `articles` WHERE `categorie_id` = 6 ORDER BY `id` DESC LIMIT 6");
 					?>
 
 					<?php
@@ -217,7 +217,7 @@ require "includes/config.php";
 				<div class="articles articles_horizontal">
 
 					<?php
-					$articles = mysqli_query($connection, "SELECT * FROM `articles` WHERE `categorie_id` = 5 ORDER BY `id` DESC LIMIT 4");
+					$articles = mysqli_query($connection, "SELECT * FROM `articles` WHERE `categorie_id` = 5 ORDER BY `id` DESC LIMIT 6");
 					?>
 
 					<?php
@@ -276,7 +276,7 @@ require "includes/config.php";
 				<div class="articles articles_horizontal">
 
 					<?php
-					$articles = mysqli_query($connection, "SELECT * FROM `articles` WHERE `categorie_id` = 4 ORDER BY `id` DESC LIMIT 4");
+					$articles = mysqli_query($connection, "SELECT * FROM `articles` WHERE `categorie_id` = 4 ORDER BY `id` DESC LIMIT 6");
 					?>
 
 					<?php
@@ -335,7 +335,7 @@ require "includes/config.php";
 				<div class="articles articles_horizontal">
 
 					<?php
-					$articles = mysqli_query($connection, "SELECT * FROM `articles` WHERE `categorie_id` = 11 ORDER BY `id` DESC LIMIT 4");
+					$articles = mysqli_query($connection, "SELECT * FROM `articles` WHERE `categorie_id` = 11 ORDER BY `id` DESC LIMIT 6");
 					?>
 
 					<?php
@@ -394,7 +394,7 @@ require "includes/config.php";
 				<div class="articles articles_horizontal">
 
 					<?php
-					$articles = mysqli_query($connection, "SELECT * FROM `articles` WHERE `categorie_id` = 12 ORDER BY `id` DESC LIMIT 4");
+					$articles = mysqli_query($connection, "SELECT * FROM `articles` WHERE `categorie_id` = 12 ORDER BY `id` DESC LIMIT 6");
 					?>
 
 					<?php

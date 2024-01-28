@@ -16,7 +16,7 @@
 								<div class="articles articles_horizontal">
 
 							<?php
-								$articles = mysqli_query($connection, "SELECT * FROM `articles`  ORDER BY `views` DESC LIMIT 4");
+								$articles = mysqli_query($connection, "SELECT * FROM `articles`  ORDER BY `views` DESC LIMIT 6");
 							?>
 
 								<?php
@@ -67,7 +67,7 @@
 								<div class="articles articles_horizontal">
 
 							<?php
-								$comments = mysqli_query($connection, "SELECT * FROM `Coment`  ORDER BY `id` DESC LIMIT 4");
+								$comments = mysqli_query($connection, "SELECT * FROM `Coment`  ORDER BY `id` DESC LIMIT 6");
 							?>
 
 								<?php
