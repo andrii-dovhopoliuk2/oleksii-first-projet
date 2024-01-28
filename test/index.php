@@ -8,6 +8,7 @@ require "includes/config.php";
 <head>
 	<meta charset="utf-8">
 	<title>
+
 		<?php echo $config['title']; ?>
 	</title>
 	<link rel="stylesheet" type="text/css" href="/media/fifa.css">
