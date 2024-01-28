@@ -1,0 +1,99 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, div, article, section {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Choose an appropriate font */
+    line-height: 1.6;
+}
+
+#wrapper {
+
+
+
+
+max-width: 1200px;
+
+
+margin: 0 auto;
+
+
+text-align: right; /* Align content to the right */
+}
+
+.block {
+
+
+background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: left; /* Align text inside block to the left */
+}
+
+
+
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#content {
+    margin-top: 20px;
+}
+
+.block {
+    margin-bottom: 20px;
+}
+
+/* Style for article previews */
+.article {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.article_image {
+    width: 100%;
+    height: 200px; /* Set a fixed height for consistency */
+    background-size: cover;
+    background-position: center;
+}
+
+.article_info {
+    padding: 15px;
+}
+
+.article_info a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.articles_info_meta {
+    margin-top: 10px;
+    color: #888;
+}
+
+/* Style for the sidebar */
+#sidebar {
+    float: right;
+    width: 25%;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .content_left {
+        width: 100%;
+    }
+
+    #sidebar {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+}

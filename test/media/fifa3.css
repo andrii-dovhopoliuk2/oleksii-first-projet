@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Set your desired font family */
+}
+
+#wrapper {
+    background-color: #f0f0f0; /* Set your desired background color */
+}
+
+#header {
+    background-color: #333; /* Set your desired header background color */
+    color: #fff; /* Set your desired text color */
+}
+
+.header_top {
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_top_logo h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center; /* Center the text */
+}
+
+.header_top_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.header_top_menu li {
+    margin-right: 15px;
+}
+
+.header_top_menu a {
+    text-decoration: none;
+    color: #fff; /* Set your desired text color */
+    font-weight: bold;
+}
+
+.header_bottom {
+    background-color: #555; /* Set your desired bottom header background color */
+    padding: 10px 20px;
+}
+
+.header_bottom nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.header_bottom nav li {
+    margin-right: 15px;
+}
+
+.header_bottom nav a {
+    text-decoration: none;
+    color: #fff; /* Set your desired text color */
+    font-weight: bold;
+    text-align: center; /* Center the text */
+}
+
+/* Add styles for hover effect if needed */
+.header_top_menu a:hover,
+.header_bottom nav a:hover {
+    color: #ffcc00; /* Set your desired hover color */
+}

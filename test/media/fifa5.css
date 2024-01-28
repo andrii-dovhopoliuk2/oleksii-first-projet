@@ -1,0 +1,130 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, div, nav, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Choose an appropriate font */
+    line-height: 1.6;
+}
+
+#wrapper {
+
+    
+
+
+max-width: 1200px;
+
+
+margin: 0 auto;
+
+
+text-align: right; /* Align content to the right */
+}
+
+.block {
+
+
+background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: left; /* Align text inside block to the left */
+}
+
+
+
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_top {
+    padding: 20px 20px;
+    border-bottom: 1px solid #555;
+}
+
+.header_top_logo h1 {
+    font-size: 24px;
+}
+
+.header_top_menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.header_top_menu li {
+    margin-right: 20px;
+}
+
+.header_top_menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.header_bottom {
+    background-color: #444;
+}
+
+.header_bottom nav ul {
+    list-style: none;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.header_bottom nav li {
+    margin-right: 20px;
+}
+
+.header_bottom nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_top_menu ul {
+        margin-top: 10px;
+    }
+
+    .header_top_menu li {
+        margin: 0 10px;
+    }
+
+    .header_bottom nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header_bottom nav li {
+        margin: 0 10px;
+    }
+}
+/* Add styles for hover effect if needed */
+.header_top_menu a:hover {
+    color: #ffcc00;
+}
